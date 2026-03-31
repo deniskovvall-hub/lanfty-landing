@@ -1,4 +1,5 @@
 # Lanfty NFT Landing 🚀
+**Перша версія — v1.0.0**
 
 ## 🛠 Tech Stack
 - HTML
