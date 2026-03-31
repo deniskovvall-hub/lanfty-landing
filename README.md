@@ -11,3 +11,5 @@
 
 ## 🎯 About
 Це мій навчальний проект для прокачки верстки та роботи з макетами Figma.
+
+https://deniskovvall-hub.github.io/lanfty-landing/
