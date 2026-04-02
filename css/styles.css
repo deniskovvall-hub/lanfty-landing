@@ -50,6 +50,10 @@ ul {
   list-style: none;
 }
 
+li {
+  list-style: none;
+}
+
 h1,
 h2,
 h3,
@@ -100,6 +104,22 @@ button {
 
 .top-list-section {
   padding-bottom: 202px;
+}
+
+.live-section {
+  padding-bottom: 250px;
+}
+
+.fifth-section {
+  padding-bottom: 200px;
+}
+
+.help-you {
+  margin-bottom: 303px;
+}
+
+.last-section{
+  padding-bottom: 171px;
 }
 
 .container {
@@ -685,4 +705,367 @@ button {
   display: block;
 }
 
+.category {
+  text-align: center;
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  margin-bottom: 24px;
+}
 
+.category-under {
+  text-align: center;
+  opacity: 0.6;
+  font-weight: 400;
+  font-family: "Mulish", sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 44px;
+}
+
+.bar {
+  width: 1240px;
+  height: 86px;
+  background-color: var(--primary-grey);
+  border-radius: 80px;
+  padding: 30px;
+  margin-bottom: 60px;
+}
+
+.flex-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.bar-btn {
+  background: transparent;
+  border: none;
+  color: var(--primary-white);
+  opacity: 0.6;
+  font-family: "Mulish", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  cursor: pointer;
+  white-space: nowrap;
+  transition:
+    background 0.2s,
+    color 0.2s;
+}
+
+.bar-btn--active {
+  background: transparent;
+  border: none;
+  font-family: "Mulish", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  background-color: var(--primary-color-dark);
+  color: var(--primary-white);
+  width: 220px;
+  height: 66px;
+  border-radius: 50px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition:
+    background 0.2s,
+    color 0.2s;
+}
+
+.card-bottom {
+  margin-bottom: 24px;
+}
+
+.card-explore {
+  width: 295px;
+  height: 462px;
+  background-color: var(--primary-grey);
+  border-radius: 10px;
+}
+
+.card-explor {
+  width: 263px;
+  height: 188px;
+  border-radius: 5px;
+  margin: 16px 16px 20px 16px;
+}
+
+.card-nickname {
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  margin-left: 16px;
+}
+
+.ava-nick {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.ava-dots {
+  display: flex;
+}
+
+.flex-card {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 44px;
+}
+
+.dots {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-left: auto;
+  margin-right: 16px;
+}
+
+.dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.dot.active {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.avatarka {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  margin: 20px 0px 20px 16px;
+}
+
+.buy {
+  opacity: 0.6;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: "Mulish", sans-serif;
+  margin-left: 16px;
+  margin-bottom: 9px;
+}
+
+.eth-like {
+  display: flex;
+  gap: 120px;
+}
+
+.ether {
+  width: 23px;
+  height: 23px;
+  margin-left: 16px;
+}
+
+.eth {
+  display: flex;
+}
+
+.ethh {
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.like {
+  display: flex;
+  gap: 3px;
+}
+
+.likee {
+  font-family: "Mulish", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+.btnn {
+  background-color: transparent;
+  width: 263px;
+  height: 47px;
+  border-radius: 29px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: var(--primary-white);
+  font-weight: 700;
+  font-size: 14px;
+  font-family: "Mulish", sans-serif;
+  cursor: pointer;
+  display: block;
+  margin: -30px 16px 20px 16px;
+}
+
+.btnn:hover {
+  background-color: var(--primary-white);
+  color: var(--primary-grey);
+}
+
+.view-btn {
+  text-align: center;
+}
+
+.View {
+  background-color: var(--primary-color-dark);
+  color: var(--primary-white);
+  width: 190px;
+  height: 47px;
+  border-radius: 30px;
+  border: 1px solid #ffffff4d;
+  font-family: "Mulish", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.View:hover {
+  background-color: var(--primary-white);
+  color: var(--primary-grey);
+}
+
+.articles {
+  text-align: center;
+  font-weight: 700;
+  font-size: 50px;
+  font-family: "Manrope", sans-serif;
+  line-height: 1.36;
+  margin-bottom: 52px;
+}
+
+.block {
+  display: block;
+}
+
+.man-flex {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.build-nft {
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+
+.learn {
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: var(--primary-white);
+  opacity: 0.6;
+  margin-bottom: 39px;
+}
+
+.drink-man {
+  border-radius: 15px;
+  width: 610px;
+  height: 344px;
+  margin-bottom: 36px;
+}
+
+.much {
+  font-family: "Mulish", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.publish-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.dott {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.dots {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-left: auto;
+  margin-right: 16px;
+}
+
+.published {
+  font-family: "Mulish", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.block {
+  margin-bottom: 56px;
+}
+
+.last-card {
+  width: 1240px;
+  height: 574px;
+  background-color: var(--primary-grey);
+  border-radius: 15px;
+}
+
+.info-last-card{
+ padding: 93px 0px 100px 85px;
+}
+
+.join {
+  font-family: "Manrope", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1.36;
+}
+.learnt {
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: var(--primary-white);
+  opacity: 0.6;
+  margin-bottom: 36px;
+}
+
+.last-btn {
+  width: 190px;
+  height: 46px;
+  background-color: var(--primary-white);
+  border-radius: 29px;
+  border: 1px solid var(--primary-white);
+  color: var(--primary-color-dark);
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+  margin-bottom: 39px;
+}
+
+.last-btn:hover {
+  background-color: transparent;
+  color: var(--primary-white);
+}
+
+
+.social{
+  display: flex; 
+  gap: 32px;
+}
+
+.last-pic{
+  width: 469px;
+  height: 515px;
+  border-radius: 10px;
+}
+
+.last-image{
+  padding: 30px 0px 0px 0px;
+}
+
+.last-flex{
+  display: flex;
+  gap: 147px;
+}
